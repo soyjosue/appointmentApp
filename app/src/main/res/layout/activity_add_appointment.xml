@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".activity.AddAppointmentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_default"
+        android:gravity="center_horizontal"
+        android:text="@string/make_appointment"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/pets_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:textSize="@dimen/second_title"
+        tools:targetApi="p" />
+
+    <EditText
+        android:id="@+id/etPetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@drawable/edit_text_style"
+        android:hint="@string/hint_pets_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="@dimen/padding_default"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/owners_name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:textSize="@dimen/second_title"
+        tools:targetApi="p" />
+
+    <EditText
+        android:id="@+id/etOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@drawable/edit_text_style"
+        android:hint="@string/hint_owners_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="@dimen/padding_default"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginTop="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/date_of_appointment"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textFontWeight="600"
+                android:textSize="@dimen/second_title"
+                tools:targetApi="p" />
+
+            <EditText
+                android:id="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:background="@drawable/edit_text_style"
+                android:focusable="false"
+                android:importantForAutofill="no"
+                android:inputType="datetime"
+                android:padding="@dimen/padding_default"
+                android:textColor="@color/black"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginTop="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/appointment_time"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textFontWeight="600"
+                android:textSize="@dimen/second_title"
+                tools:targetApi="p" />
+
+            <EditText
+                android:id="@+id/etTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_default"
+                android:layout_marginRight="@dimen/margin_default"
+                android:background="@drawable/edit_text_style"
+                android:focusable="false"
+                android:importantForAutofill="no"
+                android:inputType="datetime"
+                android:padding="@dimen/padding_default"
+                android:textColor="@color/black"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/symptoms"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:textSize="@dimen/second_title"
+        tools:targetApi="p" />
+
+    <EditText
+        android:id="@+id/etSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@drawable/edit_text_style"
+        android:importantForAutofill="no"
+        android:inputType="textLongMessage"
+        android:padding="@dimen/padding_default"
+        android:textColor="@color/black"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_button"
+        android:layout_marginRight="@dimen/margin_default"
+        android:background="@drawable/button_blue_style"
+        android:text="@string/add_appointment"
+        android:textColor="@color/white"
+        android:textFontWeight="600"
+        android:textSize="@dimen/button_medium"
+        tools:targetApi="p" />
+
+</LinearLayout>

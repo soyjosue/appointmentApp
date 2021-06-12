@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Text Size   -->
+    <dimen name="main_title">32sp</dimen>
+    <dimen name="second_title">18sp</dimen>
+    <dimen name="button_medium">16sp</dimen>
+
+    <!--    Margin Size    -->
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="margin_default">20dp</dimen>
+    <dimen name="margin_button">60dp</dimen>
+
+    <!--    Padding Size    -->
+    <dimen name="padding_default">10dp</dimen>
+
+</resources>

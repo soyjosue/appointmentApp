@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Citas de Mascotas</string>
+    <string name="description_image1_main">Add Appointments</string>
+    <string name="add_appointment">Agregar Cita</string>
+    <string name="description_img2_main">see appointments</string>
+    <string name="see_appointment">Ver Citas</string>
+    <string name="make_appointment">Crear Cita</string>
+    <string name="pets_name">Nombre de Mascota:</string>
+    <string name="hint_pets_name">Ej. Firulai</string>
+    <string name="owners_name">Nombre del Dueño:</string>
+    <string name="hint_owners_name">Ej. Gustavo</string>
+    <string name="date_of_appointment">Fecha de la cita:</string>
+    <string name="appointment_time">Hora de la cita:</string>
+    <string name="symptoms">Sintomas:</string>
+    <string name="pet_list_view">Mascota:</string>
+    <string name="owner_list_view">Dueño:</string>
+    <string name="date_list_view">Fecha:</string>
+    <string name="time_list_view">Hora:</string>
+    <string name="symptoms_list_view">Sintomas:</string>
+    <string name="reset_app">Reiniciar App</string>
+    <string name="delete_appointment">Eliminar Cita</string>
+    <string name="edit_appointment">Editar Cita</string>
+</resources>
